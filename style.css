@@ -1,0 +1,40 @@
+body{
+	display:flex;
+	flex-direction:column;
+	justify-items:flex-start;
+	gap:30px;
+	margin: 30px;
+}
+
+nav{
+	background-color:#ffa500;
+	display:flex;
+	justify-content:space-between;
+	padding-right: 10px;
+	padding-left: 10px;
+	align-items:center;
+	color:white;
+}
+nav > div{
+	color:white;
+	display:flex;
+	gap:10px;
+}
+
+#content{
+	text-align:center;
+}
+footer{
+	background-color:#ffd89c;
+	padding:20px;
+	text-align:center;
+	
+} 
+#content1{
+	background-color:#fff1d6;
+}
+ul{
+	padding-left: 20px;
+	text-align: left;
+}
+
